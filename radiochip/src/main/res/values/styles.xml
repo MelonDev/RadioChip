@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomChipSelection" parent="Base.Widget.MaterialComponents.Chip">
+        <item name="android:checkable">true</item>
+        <item name="chipIconVisible">true</item>
+        <item name="closeIconVisible">false</item>
+        <item name="chipBackgroundColor">@color/colorBottomNavigation</item>
+        <item name="checkedIcon">@drawable/ic_radio_on</item>
+        <item name="chipIcon">@drawable/ic_radio_off</item>
+    </style>
+
+    <style name="ChipText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorRadio</item>
+    </style>
+
+</resources>

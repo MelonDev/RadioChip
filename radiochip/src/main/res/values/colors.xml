@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff1744</color>
+    <color name="colorPrimaryDark">#c4001d</color>
+    <color name="colorBackground">#E0E0E0</color>
+    <color name="colorBottomNavigation">#FFFFFF</color>
+    <color name="colorRadio">#696969</color>
+
+    <color name="colorTranslucent">#00FFFFFF</color>
+
+
+    <color name="colorAccent">#D81B60</color>
+</resources>

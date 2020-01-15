@@ -1,0 +1,2 @@
+include ':app', ':radiochip'
+rootProject.name='My Application'
