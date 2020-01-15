@@ -26,8 +26,8 @@ After your config style successful, You should calling build()
 ```
 controller.build();
 ```
-## And you can?
-### Controller
+## Controller
+### Listener
 Calling onChanged from controller, Listener will return RadioChip and Position of RadioChip that you checked 
 ```
 controller.addListener(new RadioChipController.OnChangeListener() {
@@ -37,28 +37,29 @@ controller.addListener(new RadioChipController.OnChangeListener() {
        }
    });
 ```
+ ### DefaultChip
 Calling set default RadioChip from controller, If your don't set controller, Controller will checked first RadioChip on list
 ```
 controller.setDefaultPosition(2);
 ```
-### Styles
+## Styles
 Before! Your should declaration RadioChipStyle
 ```
 RadioChipStyle style = new RadioChipStyle();
 ```
-IconColor
+### IconColor
 ```
 style.setIconColor(R.color.colorPrimary);
 ```
-ActiveIconColor
+### ActiveIconColor
 ```
 style.setActiveIconColor(R.color.colorAccent);
 ```
-RipperColor
+### RipperColor
 ```
 style.setRipperColor(R.color.colorAccent);
 ```
-BackgroundColor
+### BackgroundColor
 ```
 style.setBackgroundColor(R.color.colorWhite);
 ```
