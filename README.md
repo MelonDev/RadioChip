@@ -1,5 +1,5 @@
 # RadioChip
-## Install
+## Installation
 ### First step, Add Jitpack to your gradle
 ```
 allprojects {
