@@ -13,16 +13,16 @@ Add RadioChipLayout to your target xml file
       android:id="@+id/radio_chip_layout"
       />
 ```
-Calling layout and declaration RadioChipController
+1. Calling layout and declaration RadioChipController
 ```
 RadioChipLayout layout = (RadioChipLayout) findViewById(R.id.radio_chip_layout);
 RadioChipController controller = new RadioChipController(this, layout);
 ```
-How to add RadioChip? Answer is ArrayList<String>, Add string did you want to ArrayList and add to controller
+2. How to add RadioChip? Answer is ArrayList<String>, Add string did you want to ArrayList and add to controller
 ```
 controller.addStringListToChips(getData());
 ```
-After your config style successful, You should calling build()
+3. After your config style successful, You should calling build()
 ```
 controller.build();
 ```
