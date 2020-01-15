@@ -1,6 +1,6 @@
 # RadioChip
-##Install
-First step, Add Jitpack to your gradle
+## Install
+### First step, Add Jitpack to your gradle
 ```
 allprojects {
 	repositories {
@@ -9,7 +9,7 @@ allprojects {
 	}
 }
 ```
-Second step, Add implementation to your dependencies
+### Second step, Add implementation to your dependencies
 ```
 implementation 'com.github.MelonDev:RadioChip:9b9485c0f2fafe13daebb2dd3072df492a9449c0'
 ```
