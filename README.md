@@ -22,10 +22,11 @@ RadioChipController controller = new RadioChipController(this, layout);
 ```
 controller.addStringListToChips(getData());
 ```
-3. After your config style successful, You should calling build()
+3. After your config style successful, You should calling build() 
 ```
 controller.build();
 ```
+Now! RadioChip is show on your layout! 😎😎😎
 ## Controller
 ### Listener
 Calling onChanged from controller, Listener will return RadioChip and Position of RadioChip that you checked 
@@ -42,8 +43,6 @@ Calling set default RadioChip from controller, If your don't set controller, Con
 ```
 controller.setDefaultPosition(2);
 ```
- 
- 
 ## Styles
 Before! Your should declaration RadioChipStyle
 ```
