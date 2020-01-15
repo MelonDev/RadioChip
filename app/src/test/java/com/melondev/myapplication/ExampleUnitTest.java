@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.melondev.myapplication;
 
 import org.junit.Test;
 

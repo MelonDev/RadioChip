@@ -1,4 +1,4 @@
-package com.example.radiochip;
+package com.melondev.radiochip;
 
 public class RadioChipStyle {
 

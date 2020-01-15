@@ -1,4 +1,4 @@
-package com.example.radiochip;
+package com.melondev.radiochip;
 
 import org.junit.Test;
 

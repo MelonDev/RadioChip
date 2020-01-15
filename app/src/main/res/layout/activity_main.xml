@@ -22,7 +22,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         >
 
-        <com.example.radiochip.RadioChipLayout
+        <com.melondev.radiochip.RadioChipLayout
             android:layout_margin="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.melondev.myapplication;
 
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import com.example.radiochip.RadioChip;
-import com.example.radiochip.RadioChipController;
-import com.example.radiochip.RadioChipLayout;
-import com.example.radiochip.RadioChipStyle;
+import com.melondev.radiochip.RadioChip;
+import com.melondev.radiochip.RadioChipController;
+import com.melondev.radiochip.RadioChipLayout;
+import com.melondev.radiochip.RadioChipStyle;
 
 import java.util.ArrayList;
 
@@ -42,12 +42,14 @@ public class MainActivity extends AppCompatActivity {
         RadioChipLayout layout = (RadioChipLayout) findViewById(R.id.radio_chip_layout);
 
         RadioChipStyle style = new RadioChipStyle();
+
         //style.setBackgroundColor(R.color.colorTranslucent);
         style.setIconColor(R.color.colorRadio);
         style.setActiveIconColor(R.color.colorAccent);
         style.setRipperColor(R.color.colorAccent);
 
         RadioChipController controller = new RadioChipController(this, layout,style);
+
         controller.addStringListToChips(getData());
         controller.addListener(new RadioChipController.OnChangeListener() {
             @Override

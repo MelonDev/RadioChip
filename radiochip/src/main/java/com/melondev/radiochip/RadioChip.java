@@ -1,4 +1,4 @@
-package com.example.radiochip;
+package com.melondev.radiochip;
 
 import android.content.Context;
 import android.util.AttributeSet;
