@@ -11,7 +11,7 @@ allprojects {
 ```
 ### Second step, Add implementation to your dependencies
 ```
-implementation 'com.github.MelonDev:RadioChip:9b9485c0f2fafe13daebb2dd3072df492a9449c0'
+implementation 'com.github.MelonDev:RadioChip:fcc4c63c9738e95ed820575a19a5252faaa470b6'
 ```
 
 ## How to use
