@@ -42,6 +42,8 @@ Calling set default RadioChip from controller, If your don't set controller, Con
 ```
 controller.setDefaultPosition(2);
 ```
+ 
+ 
 ## Styles
 Before! Your should declaration RadioChipStyle
 ```
