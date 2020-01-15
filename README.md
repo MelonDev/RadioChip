@@ -1,9 +1,19 @@
 # RadioChip
-## First step (Requires)
-Changing from Theme.AppCompat to Theme.MaterialComponents on Styles.xml
+##Install
+First step, Add Jitpack to your gradle
 ```
-<style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
 ```
+Second step, Add implementation to your dependencies
+```
+implementation 'com.github.MelonDev:RadioChip:9b9485c0f2fafe13daebb2dd3072df492a9449c0'
+```
+
 ## How to use
 Add RadioChipLayout to your target xml file
 ```
@@ -63,4 +73,9 @@ style.setRipperColor(R.color.colorAccent);
 ### BackgroundColor
 ```
 style.setBackgroundColor(R.color.colorWhite);
+```
+## Additional
+Before using this library, You must changing from Theme.AppCompat to Theme.MaterialComponents on Styles.xml because Material Chip is use Material Components
+```
+<style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
 ```
