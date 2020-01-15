@@ -17,7 +17,7 @@ implementation 'com.github.MelonDev:RadioChip:9b9485c0f2fafe13daebb2dd3072df492a
 ## How to use
 Add RadioChipLayout to your target xml file
 ```
- <com.example.radiochip.RadioChipLayout
+ <com.melondev.radiochip.RadioChipLayout
       	android:layout_width="match_parent"
       	android:layout_height="wrap_content"
       	android:id="@+id/radio_chip_layout"
