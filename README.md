@@ -3,10 +3,10 @@
 First step, Add Jitpack to your gradle
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
 }
 ```
 Second step, Add implementation to your dependencies
@@ -18,10 +18,10 @@ implementation 'com.github.MelonDev:RadioChip:9b9485c0f2fafe13daebb2dd3072df492a
 Add RadioChipLayout to your target xml file
 ```
  <com.example.radiochip.RadioChipLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/radio_chip_layout"
-      />
+      	android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:id="@+id/radio_chip_layout"
+      	/>
 ```
 1. Calling layout and declaration RadioChipController
 ```
@@ -42,11 +42,11 @@ Now! RadioChip is show on your layout! 😎😎😎
 Calling onChanged from controller, Listener will return RadioChip and Position of RadioChip that you checked 
 ```
 controller.addListener(new RadioChipController.OnChangeListener() {
-       @Override
-       public void onChanged(RadioChip radioChip, int position) {
-           //TODO
-       }
-   });
+       	@Override
+       	public void onChanged(RadioChip radioChip, int position) {
+       	    //TODO
+       	}
+    });
 ```
  ### DefaultChip
 Calling set default RadioChip from controller, If your don't set controller, Controller will checked first RadioChip on list
