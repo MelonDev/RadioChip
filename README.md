@@ -30,7 +30,7 @@ RadioChipController controller = new RadioChipController(this, layout);
 ```
 2. How to add RadioChip? Answer is ArrayList<String>, Add string did you want to ArrayList and add to controller
 ```
-controller.addStringListToChips(getData());
+controller.addStringListToChips([YOUR ARRAYLIST<STRING>]);
 ```
 3. After your config style successful, You should calling build() 
 ```
